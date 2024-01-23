@@ -337,8 +337,7 @@ article p {
         gap: 10px;
         padding: 10px;
         flex-shrink: 0;
-        transition: opacity 0.5s ease-in-out;
-        opacity: 0.5;
+        transition: all 0.5s ease-in-out;
     }
     
     .actual-product {
