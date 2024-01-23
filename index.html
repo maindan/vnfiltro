@@ -8,9 +8,6 @@
     <title>Vento Norte</title>
 </head>
 <body>
-    <header>
-        <img src="public/logo.png" alt="logo vento norte" id="logo">
-    </header>
     <main>
         <section id="company">
             <div id="vn-header">
@@ -22,18 +19,38 @@
             <p>Av. Buriti, nº 1025, Distrito Industrial.<br>Manaus - Amazonas</p>
         </section>
         <div class="container">
-            <button id="button-left" class="directional-button" onclick="previousProduct()">
+            <button id="button-left" class="directional-button left">
                 ❮
             </button>
-            <section class="product-details">
-                <img src="public/products/compressor/" alt="" id="product-photo">
-                <h2 id="product-name" class="text-details"></h2>
-                <h2 id="price" class="text-details"></h2>
-                <p class="text-details">Parcelamos em até 5x sem juros!</p>
-            </section>
-            <button id="button-right" class="directional-button" onclick="nextProduct()">
+            <button id="button-right" class="directional-button right">
                 ❯
             </button>
+            <div class="gallery">
+                <section class="product-details">
+                    <img src="public/products/compressor/12-100.png" alt="foto compressor" id="product-photo">
+                    <h2 id="product-name" class="text-details">Compressor Schulz MSV 12 100L Isento</h2>
+                    <h2 id="price" class="text-details">R$ 9.000,00</h2>
+                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                </section>
+                <section class="product-details">
+                    <img src="public/products/compressor/20max.png" alt="foto compressor" id="product-photo">
+                    <h2 id="product-name" class="text-details">Compressor Schulz 20 Max</h2>
+                    <h2 id="price" class="text-details">R$ 8.900,00</h2>
+                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                </section>
+                <section class="product-details">
+                    <img src="public/products/compressor/20sc.jpg" alt="foto compressor" id="product-photo">
+                    <h2 id="product-name" class="text-details">Compressor Schulz 20 Audaz</h2>
+                    <h2 id="price" class="text-details">R$ 8.750,00</h2>
+                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                </section>
+                <section class="product-details">
+                    <img src="public/products/compressor/3015.png" alt="foto compressor" id="product-photo">
+                    <h2 id="product-name" class="text-details">Compressor Schulz SRP 3015</h2>
+                    <h2 id="price" class="text-details">R$ 35.000,00</h2>
+                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                </section>
+            </div>
         </div>
         <button id="wpp-button">
             <a>
@@ -42,6 +59,14 @@
             </a>
         </button>
     </main>
+    <footer>
+        <img src="public/logo.png" alt="vento norte logo" id="logo">
+        <article>
+            <p>VENTO NORTE COMERCIO E ASSISTENCIA TECNICA EM COMPRESSORES E SISTEMAS DE AR COMPRIMIDO LTDA</p>
+            <p>CNPJ 21.727.061/0001-25</p>
+            <p>Av. Buriti, nº 1025, Distrito Industrial.<br>Manaus - Amazonas</p>
+        </article>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
