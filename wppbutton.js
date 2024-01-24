@@ -9,7 +9,7 @@ function buttonLink(msg) {
 
 wppBt.addEventListener('click', () => {
     const category = title.textContent.toLowerCase().split(' ')
-    const complementMsg = 'Tenho%20interesse%20%em%20%mais%20%informações%20sobre%20' + category[category.length - 1];
+    const complementMsg = 'Tenho%20interesse%20em%20mais%20informações%20sobre%20' + category[category.length - 1];
     if(title.textContent.toLowerCase().includes('compressores')){
         buttonLink(message + complementMsg);
     };
