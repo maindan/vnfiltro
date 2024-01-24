@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '349962394654835');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=349962394654835&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <title>Vento Norte</title>
 </head>
+
 <body>
     <main>
         <section id="company">
@@ -18,6 +39,7 @@
             </div>
             <p>Av. Buriti, nº 1025, Distrito Industrial.<br>Manaus - Amazonas</p>
         </section>
+        <h1 id="section-title">Ofertas em Compressores!</h1>
         <div class="container">
             <button id="button-left" class="directional-button left">
                 ❮
@@ -28,21 +50,27 @@
             <div class="gallery">
                 <section class="product-details">
                     <img src="public/products/compressor/12-100.png" alt="foto compressor" id="product-photo">
-                    <h2 id="product-name" class="text-details">Compressor Schulz MSV 12 100L Isento</h2>
-                    <h2 id="price" class="text-details">R$ 9.000,00</h2>
-                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    <div>
+                        <h2 id="product-name" class="text-details">Compressor Schulz MSV 12 100L Isento</h2>
+                        <h2 id="price" class="text-details">R$ 9.000,00</h2>
+                        <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    </div>
                 </section>
                 <section class="product-details">
                     <img src="public/products/compressor/20max.png" alt="foto compressor" id="product-photo">
-                    <h2 id="product-name" class="text-details">Compressor Schulz 20 Max</h2>
-                    <h2 id="price" class="text-details">R$ 8.900,00</h2>
-                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    <div>
+                        <h2 id="product-name" class="text-details">Compressor Schulz 20 Max</h2>
+                        <h2 id="price" class="text-details">R$ 8.900,00</h2>
+                        <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    </div>
                 </section>
                 <section class="product-details">
                     <img src="public/products/compressor/20sc.jpg" alt="foto compressor" id="product-photo">
-                    <h2 id="product-name" class="text-details">Compressor Schulz 20 Audaz</h2>
-                    <h2 id="price" class="text-details">R$ 8.750,00</h2>
-                    <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    <div>
+                        <h2 id="product-name" class="text-details">Compressor Schulz 20 Audaz</h2>
+                        <h2 id="price" class="text-details">R$ 8.750,00</h2>
+                        <p class="text-details">Parcelamos em até 5x sem juros!</p>
+                    </div>
                 </section>
                 <section class="product-details">
                     <img src="public/products/compressor/3015.png" alt="foto compressor" id="product-photo">
@@ -54,8 +82,8 @@
         </div>
         <button id="wpp-button">
             <a>
-            <img src="public/whatsapp.png" alt="">
-            <h2>Falar com Vendedor</h2>
+                <img src="public/whatsapp.png" alt="">
+                <h2>Falar com Vendedor</h2>
             </a>
         </button>
     </main>
@@ -69,4 +97,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
