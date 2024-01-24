@@ -6,25 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '349962394654835');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=349962394654835&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/sidebar.css">
     <title>Vento Norte</title>
 </head>
 
@@ -32,9 +15,30 @@
     <main>
         <section id="company">
             <div id="vn-header">
+                <nav class="closed">
+                    <button><i class="bi bi-list" id="button-i"></i></button>
+                    <ul>
+                      <li>
+                        <span><i class="bi bi-house"></i></span>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <span><i class="bi bi-cart"></i></span>
+                        <a href="#">Produtos</a>
+                      </li>
+                      <li>
+                        <span><i class="bi bi-buildings"></i></span>
+                        <a href="#">Sobre</a>
+                      </li>
+                      <li>
+                        <span><i class="bi bi-telephone-inbound"></i></span>
+                        <a href="#">Contato</a>
+                      </li>
+                    </ul>
+                  </nav>
                 <div id="title">
                     <h1>vento norte</h1>
-                    <span></span>
+                    <span id="span"></span>
                 </div>
             </div>
             <p>Av. Buriti, nº 1025, Distrito Industrial.<br>Manaus - Amazonas</p>
@@ -97,6 +101,7 @@
     </footer>
     <script src="script.js"></script>
     <script src="wppbutton.js"></script>
+    <script src="sidebar.js"></script>
 </body>
 
 </html>

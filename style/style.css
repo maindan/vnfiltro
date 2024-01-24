@@ -50,7 +50,6 @@ main {
     padding: 10px;
 
     background-image: url('../public/fachada2.png');
-    opacity: 0.8;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,13 +71,14 @@ main {
     justify-content: center;
 }
 
-#vn-header span {
+#span {
     width: 320px;
     border: 1px solid #f5e621;
 }
 
 #company p {
     text-align: center;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 #section-title {
@@ -254,7 +254,7 @@ article p {
         font-size: 40px;
     }
     
-    #vn-header span {
+    #span {
         width: 230px;
     }
     
