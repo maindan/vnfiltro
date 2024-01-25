@@ -3,6 +3,7 @@ nav.closed {
     height: max-content;
     width: 80px;
     background: none;
+    position: absolute;
   }
   
   nav.closed button i {
@@ -22,7 +23,7 @@ nav.closed {
     justify-content: space-between;
     padding: 20px;
     background:#354988;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     transition: width 0.3s ease;
