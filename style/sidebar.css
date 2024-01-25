@@ -1,3 +1,4 @@
+
 nav.closed {
     height: max-content;
     width: 80px;
@@ -5,7 +6,7 @@ nav.closed {
   }
   
   nav.closed button i {
-    color: black;
+    color: white;
   }
   
   nav.closed ul {
@@ -20,8 +21,8 @@ nav.closed {
     align-items: flex-end;
     justify-content: space-between;
     padding: 20px;
-    background:#191538;
-    position: fixed;
+    background:#354988;
+    position: absolute;
     top: 0;
     left: 0;
     transition: width 0.3s ease;

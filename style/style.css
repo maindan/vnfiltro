@@ -126,7 +126,7 @@ main {
 .gallery {
     display: flex;
     overflow-x: auto;
-    flex: 0.65;
+    flex: 0.7;
     flex-flow: wrap nowrap;
     overflow-x: hidden;
     -ms-overflow-style: none; /* IE and Edge */
@@ -134,8 +134,8 @@ main {
 }
 
 .product-details {
-    width: 500px;
-    height: 500px;
+    width: max-content;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
